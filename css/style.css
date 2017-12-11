@@ -1,0 +1,26 @@
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*/////// LAYOUT STYLES ////////*/
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+/*/////// NAVBAR ////////*/
+
+li {
+  padding: 5px 5px;
+}
+
+@media only screen and (min-width: 750px) {
+
+  li {
+    font-size: 95%;
+  }
+}
